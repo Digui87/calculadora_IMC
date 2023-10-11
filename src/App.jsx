@@ -54,11 +54,6 @@ function App() {
       setImcMessage(`Seu IMC é: ${imc.toFixed(2)}`);
     }
   }
-
-
-    setPeso('');
-    setAltura('');
-
     return (
       <>
       <div className="app">
