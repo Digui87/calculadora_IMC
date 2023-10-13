@@ -35,7 +35,7 @@ function App() {
     
     } else if(imc >= 25 && imc < 29.9){
       setMensagem(`Você está acima do peso !`);
-      setEfeitos(`Efeitos colaterais: Menor risco de doenças cardíacas e vasculares.`);
+      setEfeitos(`Efeitos colaterais: Maior risco de doenças cardíacas e vasculares.`);
       setImcMessage(`Seu IMC é: ${imc.toFixed(2)}`);
     
     } else if(imc >= 30 && imc < 34.9){
